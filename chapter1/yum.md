@@ -52,12 +52,23 @@ yum install ntp
 
 ![](/assets/2017-03-30_10-40-03.jpg)
 
+NTP 强制同步
+
+```
+ntpdate -q  0.ro.pool.ntp.org  1.ro.pool.ntp.org
+```
+
+![](/assets/2017-03-30_10-49-16.jpg)
+
+
+
 更多有关 NTP 的命令和使用，请参考下面的链接。一般来说服务器配置到这里就可以了，因为你的 ntp 服务会根据你配置的时间状态对你的服务器时间进行同步。
 
 ---
 
 * [http://www.ossez.com/thread-31578-1-1.html](http://www.ossez.com/thread-31578-1-1.html "CentOS7 配置时间")
 * [http://www.ossez.com/thread-31579-1-1.html](http://www.ossez.com/thread-31579-1-1.html "CentOS7 安装 NTP")
+* [http://www.ossez.com/thread-31581-1-1.html](http://www.ossez.com/thread-31581-1-1.html "服务器时间 NTP 强制同步")
 
 
 

@@ -4,9 +4,9 @@
 
 ## 显示时区
 
-`[root@ossez ~]# date +%z`
+`[root@ossez ~]# date +%z`
 
-`-0400`
+`-0400`
 
 这里显示的时间是美国东部时间，-0400 的时区
 
@@ -25,7 +25,9 @@
 [gaarai@server ~]$ sudo ln -s /usr/share/zoneinfo/America/New_York /etc/localtime
 ```
 
+---
 
+* [http://www.ossez.com/thread-31578-1-1.html](http://www.ossez.com/thread-31578-1-1.html)
 
 
 

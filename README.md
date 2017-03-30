@@ -1,4 +1,6 @@
 # Centos7 初始化安装
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+最近在对公司的 CentOS7 服务器进行一些初始化的安装和配置工作。
+
+对一个新的机器可能遇到的问题还比较多，先记录下来供以后参考。
 

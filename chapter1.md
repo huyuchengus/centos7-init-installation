@@ -1,3 +1,4 @@
-# First Chapter
+# 系统更新
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+如果你安装的是 CentOS，你应该是可以通过 yum 进行安装更新的。
+
